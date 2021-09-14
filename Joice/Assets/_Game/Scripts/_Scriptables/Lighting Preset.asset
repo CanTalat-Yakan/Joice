@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35b03201bb661ad4ab4e4fb4e3556efc, type: 3}
+  m_Name: Lighting Preset
+  m_EditorClassIdentifier: 
+  DayTimeFlow:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1.4505292
+      outSlope: 1.4505292
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.31539816
+      value: 0.45749423
+      inSlope: 0.91915214
+      outSlope: 0.91915214
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.73125345
+      value: 0.61875254
+      inSlope: 0.90319425
+      outSlope: 0.90319425
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1.4186134
+      outSlope: 1.4186134
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  AmbientColor:
+    serializedVersion: 2
+    key0: {r: 0.0627451, g: 0.101960786, b: 0.16078432, a: 1}
+    key1: {r: 0.41960785, g: 0.47843137, b: 0.627451, a: 1}
+    key2: {r: 0.49038807, g: 0.5545181, b: 0.7169812, a: 0}
+    key3: {r: 0.41960785, g: 0.47843137, b: 0.627451, a: 0}
+    key4: {r: 0.06430225, g: 0.10182734, b: 0.16037738, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 18119
+    ctime2: 33924
+    ctime3: 49922
+    ctime4: 65535
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 5
+    m_NumAlphaKeys: 2
+  DirectionalColor:
+    serializedVersion: 2
+    key0: {r: 0.23529412, g: 0.2509804, b: 0.2627451, a: 1}
+    key1: {r: 0.27058825, g: 0.3372549, b: 0.5882353, a: 1}
+    key2: {r: 1, g: 0.95686275, b: 0.8392157, a: 0}
+    key3: {r: 1, g: 0.99607843, b: 0.75, a: 0}
+    key4: {r: 1, g: 0.95686275, b: 0.8392157, a: 0}
+    key5: {r: 0.27058825, g: 0.3372549, b: 0.5882353, a: 0}
+    key6: {r: 0.23529412, g: 0.2509804, b: 0.2627451, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 6746
+    ctime2: 18504
+    ctime3: 32768
+    ctime4: 48959
+    ctime5: 60524
+    ctime6: 65535
+    ctime7: 65535
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 7
+    m_NumAlphaKeys: 2
+  FogColor:
+    serializedVersion: 2
+    key0: {r: 0.17254902, g: 0.22352941, b: 0.2627451, a: 1}
+    key1: {r: 0.5921569, g: 0.7176471, b: 0.89411765, a: 1}
+    key2: {r: 0.5921569, g: 0.7176471, b: 0.89411765, a: 0}
+    key3: {r: 0.17254902, g: 0.22352941, b: 0.2627451, a: 0}
+    key4: {r: 0.17254902, g: 0.22352941, b: 0.2627451, a: 0}
+    key5: {r: 0.17254902, g: 0.22352941, b: 0.2627451, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 15998
+    ctime1: 17733
+    ctime2: 47031
+    ctime3: 48959
+    ctime4: 50921
+    ctime5: 50921
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 4
+    m_NumAlphaKeys: 2
+  DawnDegree: 20
+  DayLightIntensity: 1
+  NightLightIntensity: 0.4
+  SkyColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+  SunSize: 0.04
+  MoonSize: 0.024
+  NightTimeSkyExposure: 0.1
+  EnvironmentSkyLightIntensitiy: 0.5
