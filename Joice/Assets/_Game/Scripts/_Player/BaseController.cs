@@ -1,7 +1,6 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using StarterAssets;
 using UnityEngine;
 
 public abstract class BaseController : MonoBehaviour
@@ -13,7 +12,7 @@ public abstract class BaseController : MonoBehaviour
     [SerializeField] internal MovementAttributes m_Attributes;
     internal Animator m_Animator;
     internal CharacterController m_CharController;
-    internal StarterAssetsInputs m_Input;
+    internal InputManager m_Input;
     internal Transform m_Camera;
     internal Transform m_CameraRoot;
     bool m_lockMovement = false, m_lockCamera = false;
@@ -56,7 +55,7 @@ public abstract class BaseController : MonoBehaviour
 
         m_Animator = PlayerManager.Instance.PlayerAnimator;
         m_CharController = PlayerManager.Instance.CharacterController;
-        m_Input = InputManager.Instance.Input;
+        m_Input = InputManager.Instance;
         m_Camera = CameraManager.Instance.Main.transform;
         m_CameraRoot = PlayerManager.Instance.PlayerCameraRoot;
 

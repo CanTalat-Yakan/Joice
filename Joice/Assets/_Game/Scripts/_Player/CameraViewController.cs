@@ -2,13 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
-using StarterAssets;
 
 public class CameraViewController : MonoBehaviour
 {
     CameraAttributes m_attributes { get => CameraManager.Instance.Attributes; }
 
-    StarterAssetsInputs m_input;
+    InputManager m_input;
     CinemachineVirtualCamera m_vcam;
     Cinemachine3rdPersonFollow m_followComponent;
     float m_viewDist = 0;
@@ -19,7 +18,7 @@ public class CameraViewController : MonoBehaviour
     void Start()
     {
         m_tmpViewDist = m_attributes.StartViewDistance;
-        m_input = InputManager.Instance.Input;
+        m_input = InputManager.Instance;
         m_vcam = CameraManager.Instance.Virtual;
 
         m_followComponent = m_vcam.GetCinemachineComponent<Cinemachine3rdPersonFollow>();

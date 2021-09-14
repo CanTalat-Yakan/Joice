@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Cinemachine;
-using StarterAssets;
 using UnityEngine;
 using UnityEngine.Animations;
 

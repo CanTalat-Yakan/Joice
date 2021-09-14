@@ -21,8 +21,8 @@ public class UtilityManager : MonoBehaviour
 
     void Update()
     {
-        if (InputManager.Instance.Input)
-            InputManager.Instance.Input.enabled = !GameManager.Instance.LOCKED;
+        if (InputManager.Instance)
+            InputManager.Instance.enabled = !GameManager.Instance.LOCKED;
     }
 
     internal RaycastHit HitRayCast(float _maxDistance, Ray? _ray = null)
