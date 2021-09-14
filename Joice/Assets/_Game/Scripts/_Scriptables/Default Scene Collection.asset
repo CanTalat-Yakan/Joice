@@ -9,18 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c8adfd411db709c41ba0d9cb3c7c1963, type: 3}
+  m_Script: {fileID: 11500000, guid: 031da3b4e75c78a46a56ed5345c2542a, type: 3}
   m_Name: Default Scene Collection
   m_EditorClassIdentifier: 
-  Title: _Boot
-  Collection:
-  - sceneAsset: {fileID: 102900000, guid: 1a3dbf25c9ef50b4bb8ab19c24877ca5, type: 3}
-    scenePath: Assets/#Game/Scene/Core.unity
-  - sceneAsset: {fileID: 102900000, guid: 4aec78e9c74497844adec0b40103aaed, type: 3}
-    scenePath: Assets/Polyart/PolyartStudio/DreamscapeMountains/Scenes/DemoScene.unity
-  - sceneAsset: {fileID: 102900000, guid: fe39df37e0001934b81e940e5e5b506b, type: 3}
-    scenePath: Assets/#Game/Scene/Lighting.unity
-  - sceneAsset: {fileID: 102900000, guid: 594f25573676bbb43af4913c0b9bb594, type: 3}
-    scenePath: Assets/#Game/Scene/Player.unity
-  - sceneAsset: {fileID: 102900000, guid: 1b1b357303b23b341a80fe2dd76aa4f8, type: 3}
-    scenePath: Assets/#Game/Scene/UI.unity
+  Title: 
+  Collection: []

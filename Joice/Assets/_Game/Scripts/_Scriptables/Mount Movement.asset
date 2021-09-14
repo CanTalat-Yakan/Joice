@@ -9,26 +9,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e8192d8ec74d47468eb7c7ef0c2fbbb, type: 3}
+  m_Script: {fileID: 11500000, guid: b58c8aae8b1275446bd221eeacd9ba57, type: 3}
   m_Name: Mount Movement
   m_EditorClassIdentifier: 
-  MaxSlope: 50
-  StepOffset: 1.2
-  Radius: 0.75
-  MoveSpeed: 5
-  SprintSpeed: 15
-  RotationSmoothTime: 0.18
-  SpeedChangeRate: 5
-  JumpHeight: 2.4
+  MaxSlope: 45
+  StepOffset: 0.25
+  Radius: 0.28
+  MoveSpeed: 2
+  SprintSpeed: 5.335
+  RotationSmoothTime: 0.12
+  SpeedChangeRate: 10
+  JumpHeight: 1.2
   Gravity: -15
   JumpTimeout: 0.5
-  FallTimeout: 0.4
+  FallTimeout: 0.15
   JumpWhileFallingTolerance: 0.15
-  GroundedOffset: -0.11
-  GroundedRadius: 0.64
+  GroundedOffset: -0.14
+  GroundedRadius: 0.28
   GroundLayers:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 0
   CameraAngleOverride: 0
   TopClamp: 70
   BottomClamp: -30
